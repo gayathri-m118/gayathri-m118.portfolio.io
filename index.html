@@ -1,263 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gayathri M | AI & ML Engineer</title>
+    <meta charset="UTF-8">
+    <title>Gayathri M | AI & ML Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<style>
-:root{
---primary:#ffd700;
---secondary:#8b5cf6;
---accent:#00d4ff;
---bg:#0a0a1a;
---glass:rgba(255,255,255,0.07);
---border:rgba(255,255,255,0.15);
---text:#ffffff;
---sub:rgba(255,255,255,0.75);
-}
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-*{margin:0;padding:0;box-sizing:border-box;}
-
-body{
-font-family:'Inter',sans-serif;
-background:var(--bg);
-color:var(--text);
-scroll-behavior:smooth;
-}
-
-/* HEADER */
-header{
-min-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:2rem;
-}
-
-h1{
-font-size:clamp(3rem,8vw,5rem);
-font-weight:800;
-background:linear-gradient(135deg,#fff,var(--primary),var(--accent));
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-}
-
-.subtitle{
-margin-top:1rem;
-font-size:1.3rem;
-color:var(--sub);
-}
-
-.contact-top{
-margin-top:1rem;
-font-size:0.95rem;
-color:var(--sub);
-}
-
-.btn{
-margin-top:1rem;
-display:inline-block;
-padding:12px 25px;
-background:var(--secondary);
-color:white;
-border-radius:30px;
-text-decoration:none;
-transition:0.3s;
-font-weight:600;
-}
-.btn:hover{
-background:var(--primary);
-color:black;
-}
-
-.profile{
-width:350px;
-height:350px;
-border-radius:50%;
-overflow:hidden;
-border:5px solid var(--primary);
-margin:2rem auto 0;
-box-shadow:0 0 40px rgba(255,215,0,0.5);
-}
-.profile img{
-width:100%;
-height:100%;
-object-fit:cover;
-}
-
-/* SECTIONS */
-section{
-padding:3rem 2rem;
-text-align:center;
-}
-
-section h2{
-font-size:2.3rem;
-margin-bottom:1.5rem;
-background:linear-gradient(45deg,var(--primary),var(--accent));
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-}
-
-.box{
-max-width:1000px;
-margin:auto;
-background:var(--glass);
-padding:2rem;
-border-radius:18px;
-border:1px solid var(--border);
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:1.5rem;
-margin-top:1.5rem;
-}
-
-.card{
-background:rgba(139,92,246,0.15);
-padding:1.5rem;
-border-radius:15px;
-border:1px solid var(--secondary);
-transition:0.3s;
-}
-.card:hover{
-transform:translateY(-6px);
-background:var(--secondary);
-}
-
-footer{
-text-align:center;
-padding:1.5rem;
-color:var(--sub);
-font-size:0.9rem;
-}
-</style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>Gayathri M</h1>
-
-<p class="subtitle">
-Artificial Intelligence & Machine Learning Engineer
-</p>
-
-<p class="contact-top">
-Phone: 1234567890| Email: gayu71841@gmail.com | Chennai,Tamil Nadu <br>
-<a href="https://www.linkedin.com/in/gayathri-gayu-9181a92a0/" target="_blank" style="color:var(--primary); text-decoration:none;">
-LinkedIn
-</a> |
-
-<a href="https://github.com/gayathri-m118/gayathri-gitup" target="_blank" style="color:var(--accent); text-decoration:none;">
-GitHub
-</a>
-</p>
-
-<div class="profile">
-<img src="https://uploads.onecompiler.io/44ecnewj2/44ecnaxwh/Copy%20of%20Copy%20of%20photo_2023-09-18_14-32-10.jpg">
-</div>
+<header class="navbar">
+    <div class="container nav-flex">
+        <div class="logo">Gayathri<span>.M</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Internships</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 </header>
 
-<!-- CAREER OBJECTIVE -->
-<section>
-<h2>Career Objective</h2>
-<div class="box">
-<p>
-Entry-level Artificial Intelligence and Machine Learning Engineer seeking to apply skills in Python, Machine Learning, and Web Technologies to develop scalable intelligent solutions while continuously learning and contributing to organizational growth.
-</p>
-</div>
+<section id="home" class="hero">
+    <div class="container hero-content">
+        <div class="hero-text">
+            <span class="badge">AI & ML Engineer</span>
+            <h1>GAYATHRI M</h1>
+
+            <p>
+                Entry-level Artificial Intelligence and Machine Learning Engineer seeking to apply skills in Python,
+                Machine Learning, and Web Technologies to develop data-driven and scalable intelligent solutions
+                while continuously learning and contributing to organizational growth.
+            </p>
+
+            <div class="hero-btns">
+                <a href="Gayathri_M_Resume.pdf.pdf" class="btn-primary">
+                    <i class="fas fa-download"></i> Resume
+                </a>
+                <a href="#projects" class="btn-secondary">View Projects</a>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="Copy of Copy of photo_2023-09-18_14-32-10.jpg" alt="Gayathri M">
+        </div>
+    </div>
 </section>
 
-<!-- EDUCATION -->
-<section>
-<h2>Education</h2>
-<div class="box">
-<p><strong>B.Tech – Artificial Intelligence and Machine Learning</strong><br>
-Panimalar Engineering College | CGPA: 8.8</p>
-<br>
-<p>Class XII – State Board, Govt Hr Sec School | 83%</p>
-<p>Class X – State Board, Govt Hr Sec School | 73%</p>
-</div>
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="card">
+            <p><strong>B.Tech – Artificial Intelligence & Machine Learning</strong><br>
+            Panimalar Engineering College | CGPA: 8.8</p>
+
+            <p>Class XII – Govt Hr Sec School | 83%</p>
+            <p>Class X – Govt Hr Sec School | 73%</p>
+        </div>
+    </div>
 </section>
 
-<!-- TECHNICAL SKILLS -->
-<section>
-<h2>Technical Skills</h2>
-<div class="box grid">
-<div class="card"><strong>Programming:</strong><br>Java, Python</div>
-<div class="card"><strong>Web:</strong><br>HTML, CSS, JavaScript, React, TailwindCSS</div>
-<div class="card"><strong>Database:</strong><br>MySQL</div>
-<div class="card"><strong>Tools:</strong><br>Git, VS Code, MS Excel, Flask</div>
-<div class="card"><strong>OS:</strong><br>Windows, Linux</div>
-</div>
+<section id="skills" class="section light-bg">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h4>Programming</h4>
+                <p>Python, Java</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <h4>Machine Learning</h4>
+                <p>Scikit-learn, Pandas, NumPy</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h4>Web Technologies</h4>
+                <p>HTML, CSS, JavaScript, React, TailwindCSS, Flask</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h4>Database & Tools</h4>
+                <p>MySQL, Git, VS Code, MS Excel, Linux</p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- PROJECTS -->
-<section>
-<h2>Projects</h2>
-<div class="box grid">
-<div class="card">
-<h3>Movie Recommendation System</h3>
-<p>Developed using Python, Pandas, NumPy, and Scikit-learn with similarity analysis techniques.</p>
-</div>
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
 
-<div class="card">
-<h3>Music Streaming Application</h3>
-<p>Full-stack application using React, TailwindCSS, and Flask with responsive UI and authentication.</p>
-</div>
-</div>
+        <div class="project-grid">
+            <div class="project-card">
+                <h4>Movie Recommendation System</h4>
+                <p>
+                    Developed a Python-based recommendation system using Pandas, NumPy,
+                    and Scikit-learn with similarity analysis techniques.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h4>Music Streaming Application</h4>
+                <p>
+                    Designed a full-stack music application using React, TailwindCSS,
+                    and Flask with responsive UI and backend integration.
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- INTERNSHIPS -->
-<section>
-<h2>Internships</h2>
-<div class="box">
-<p><strong>Machine Learning Intern</strong> – Retech Solutions Pvt. Ltd. (June 2024)</p>
-<p>Worked on Weather-Based Smart Home Energy Consumption Prediction.</p>
-<br>
-<p><strong>Machine Learning Trainee</strong> – YBI Foundation</p>
-<p>Hands-on experience in preprocessing, model training, and evaluation.</p>
-</div>
+<section id="experience" class="section light-bg">
+    <div class="container">
+        <h2 class="section-title">Internships</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h4>Machine Learning Intern – Retech Solutions Pvt. Ltd.</h4>
+                <p>Worked on Weather-Based Smart Home Energy Consumption Prediction (June 2024).</p>
+            </div>
+
+            <div class="project-card">
+                <h4>Machine Learning Trainee – YBI Foundation</h4>
+                <p>Hands-on experience in ML preprocessing, training, and evaluation.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- CERTIFICATIONS -->
-<section>
-<h2>Certifications & Awards</h2>
-<div class="box">
-<p>• Acquiring Data – NASSCOM (Gold – 83%)</p>
-<p>• TestYantra – Web Development Trainee</p>
-<p>• Certificate of Merit – Panimalar Engineering College (3rd Prize – ₹10,000)</p>
-</div>
-</section>
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
 
-<!-- SOFT SKILLS -->
-<section>
-<h2>Soft Skills</h2>
-<div class="box">
-<p>Communication | Teamwork | Problem Solving | Time Management</p>
-</div>
-</section>
+        <div class="contact-grid">
+            <a href="mailto:gayu71841@gmail.com" class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>gayu71841@gmail.com</p>
+            </a>
 
-<!-- LANGUAGES -->
-<section>
-<h2>Languages</h2>
-<div class="box">
-<p>Tamil | English</p>
-</div>
+            <a href="https://www.linkedin.com/in/gayathri-gayu-9181a92a0/" 
+               class="contact-item" 
+               target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <p>linkedin.com/in/gayathri-gayu-9181a92a0</p>
+            </a>
+            <a href="https://github.com/gayathri-m118" 
+               class="contact-item" 
+               target="_blank">
+                <i class="fab fa-github"></i>
+                <p>github.com/gayathri-m118</p>
+            </a>
+        </div>
+    </div>
 </section>
 
 <footer>
-© 2026 Gayathri M | AI & ML Portfolio
+    <p>© 2026 Gayathri M | AI & ML Engineer</p>
 </footer>
 
 </body>
-
 </html>
